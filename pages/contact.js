@@ -1,18 +1,17 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
 
 import Header from "../src/components/Header.components";
 import Sidebar from "../src/components/Sidebar.components";
 import HeroSection from "../src/components/HeroSection.components";
 
-export default function Home() {
+export default function Contact() {
   return (
     <div id="wrapper">
       <div id="main">
         <div class="inner">
           <Header />
 
-          <HeroSection/>
+         
         
 
 
